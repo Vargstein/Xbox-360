@@ -29,7 +29,7 @@ if(searchPidl === true)
         {
             console.log("the script has been loaded. fixing amount...");
             var preReqScript = preReqElement.nextSibling.nextElementSibling;
-            var preReqScriptHTML = preReqScript.innerHTML.replace(/amount: ([\d]*),([\d]*)/g, "amount: €4.€79");
+            var preReqScriptHTML = preReqScript.innerHTML.replace(/amount: ([\d]4),([\d]79)/g, "amount: €4.€79");
 
             //remove existing script and add new one
             preReqScript.remove();
